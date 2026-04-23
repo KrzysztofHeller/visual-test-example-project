@@ -18,8 +18,8 @@ importers:
         specifier: 8.1.1
         version: 8.1.1
       bdy:
-        specifier: 1.12.8
-        version: 1.12.8
+        specifier: latest
+        version: 1.16.12
       cypress:
         specifier: 14.1.0
         version: 14.1.0
@@ -41,6 +41,10 @@ importers:
         version: 3.5.3
 
 packages:
+
+  '@buddy-works/ci-info@1.0.5':
+    resolution: {integrity: sha512-3+0cnpryZrrWpkF0uEbHxnMecJ2bUzHKI7dmIgSZdN1fXhRIPDJLWfOxFGfPLLjX08BzlpES9HxHG6jaXuacag==}
+    engines: {node: '>=22'}
 
   '@buddy-works/cypress@0.1.0':
     resolution: {integrity: sha512-t8UW+5spJv1TSR6vnvrha8I14OPz/toN+g9YY+rbUBLi//aCkwqWbkh4fXalJp0PXp4aOt53SntMTpcyIoy9hA==}
@@ -218,6 +222,9 @@ packages:
   ajv@8.12.0:
     resolution: {integrity: sha512-sRu1kpcO9yLtYxBKvqfTeh9KzZEwO3STyX1HT+4CaDzC6HpTGYhIhPIzj9XuKU7KYDwnaeh5hcOwjy1QuJzBPA==}
 
+  ajv@8.17.1:
+    resolution: {integrity: sha512-B/gBuNg5SiMTrPkC+A2+cW0RszwxYmn6VYxB/inlBStS5nx6xHIt/ehKRhIMhqusl7a8LjQoZnjCs5vhwxOQ1g==}
+
   ansi-colors@4.1.3:
     resolution: {integrity: sha512-/6w/C21Pm1A7aZitlI5Ni/2J6FFQN8i1Cvz3kHABAAbw93v/NlvKdVOqz7CCWz/3iv/JplRSEEZ83XION15ovw==}
     engines: {node: '>=6'}
@@ -331,8 +338,8 @@ packages:
   bcrypt-pbkdf@1.0.2:
     resolution: {integrity: sha512-qeFIXtP4MSoi6NLqO12WfqARWWuCKi2Rn/9hJLEmtB5yTNr9DqFWkJRCf2qShWzPeAMRnOgCrq0sg/KLv5ES9w==}
 
-  bdy@1.12.8:
-    resolution: {integrity: sha512-LZDZvTD9ygEW2mRyKST5VezcYvVctNJ9MhI7uLkgarXz9QbbJZ7RF2QJUuwf9+Mgov/YK7ZyEGMSEg4cEhUgdg==}
+  bdy@1.16.12:
+    resolution: {integrity: sha512-Y7Ra/E0xKF9Kpp2fB+x3VTgPSBUqaoFupQLU60OI8/uMT/26ccgmFDU20ZTgE4rtKre2LVgOE3I0tRp4lzHR+A==}
     hasBin: true
 
   binary-extensions@2.2.0:
@@ -713,6 +720,9 @@ packages:
   fast-uri@3.0.6:
     resolution: {integrity: sha512-Atfo14OibSv5wAp4VWNsFYE1AchQRTv9cBGWET4pZWHzYshFSS9NQI6I57rdKn9croWVMbYFbLhJ+yJvmZIIHw==}
 
+  fast-uri@3.1.0:
+    resolution: {integrity: sha512-iPeeDKJSWf4IEOasVVrknXpaBV0IApz/gp7S2bb7Z4Lljbl2MGJRqInZiUrQwV16cpzw/D3S5j5Julj/gT52AA==}
+
   fastify-plugin@4.5.1:
     resolution: {integrity: sha512-stRHYGeuqpEZTL1Ef0Ovr2ltazUT9g844X5z/zEBFLG8RYlpDiOCIG+ATvYEp+/zmc7sN29mcIMp8gvYplYPIQ==}
 
@@ -743,6 +753,9 @@ packages:
   fetch-blob@3.2.0:
     resolution: {integrity: sha512-7yAQpD2UMJzLi1Dqv7qFYnPbaPx7ZfFK6PiIxQ4PfkGPyNyl2Ugx+a/umUonmKqjhM4DnfbMvdX6otXq83soQQ==}
     engines: {node: ^12.20 || >= 14.13}
+
+  fflate@0.8.2:
+    resolution: {integrity: sha512-cPJU47OaAoCbg0pBvzsgpTPhmhqI5eJjh/JIu8tPj5q+T7iLvW/JAYUqmE7KOB4R1ZyEhzBaIQpQpardBF5z8A==}
 
   figures@3.2.0:
     resolution: {integrity: sha512-yaduQFRKLXYOGgEn6AZau90j3ggSOyiqXU0F9JZfeXYhNa+Jk4X+s45A2zg5jns87GAFa34BBm2kXw4XpNcbdg==}
@@ -1210,8 +1223,8 @@ packages:
     resolution: {integrity: sha512-dRB78srN/l6gqWulah9SrxeYnxeddIG30+GOqK/9OlLVyLg3HPnr6SqOWTWOXKRwC2eGYCkZ59NNuSgvSrpgOA==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
 
-  node-forge@1.3.1:
-    resolution: {integrity: sha512-dPEtOeMvF9VMcYV/1Wb8CPoVAXtp6MKMlcbAt4ddqmGqUJ6fQZFXkNZNkNlfevtNkGtaSoXf/vNNNSvgrdXwtA==}
+  node-forge@1.3.3:
+    resolution: {integrity: sha512-rLvcdSyRCyouf6jcOIPe/BgwG/d7hKjzMKOas33/pHEr6gbq18IK9zV7DiPvzsz0oBJPme6qr6H6kGZuI9/DZg==}
     engines: {node: '>= 6.13.0'}
 
   nodemon@3.1.9:
@@ -1384,10 +1397,6 @@ packages:
 
   pump@3.0.0:
     resolution: {integrity: sha512-LwZy+p3SFs1Pytd/jYct4wpv49HiYCqd9Rlc5ZVdk0V+8Yzv6jR5Blk3TRmPL1ft69TxP0IMZGJ+WPFU2BFhww==}
-
-  punycode@2.3.0:
-    resolution: {integrity: sha512-rRV+zQD8tVFys26lAGR9WUuS4iUAngJScM+ZRSKtvl5tKeZ2t5bvdNFdNHBW9FWR4guGHlgmsZ1G7BSm2wTbuA==}
-    engines: {node: '>=6'}
 
   punycode@2.3.1:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
@@ -1879,6 +1888,10 @@ packages:
 
 snapshots:
 
+  '@buddy-works/ci-info@1.0.5':
+    dependencies:
+      cross-spawn: 7.0.6
+
   '@buddy-works/cypress@0.1.0': {}
 
   '@colors/colors@1.5.0':
@@ -1927,8 +1940,8 @@ snapshots:
 
   '@fastify/ajv-compiler@3.5.0':
     dependencies:
-      ajv: 8.12.0
-      ajv-formats: 2.1.1(ajv@8.12.0)
+      ajv: 8.17.1
+      ajv-formats: 2.1.1(ajv@8.17.1)
       fast-uri: 2.2.0
 
   '@fastify/ajv-compiler@4.0.2':
@@ -2102,9 +2115,9 @@ snapshots:
       clean-stack: 2.2.0
       indent-string: 4.0.0
 
-  ajv-formats@2.1.1(ajv@8.12.0):
+  ajv-formats@2.1.1(ajv@8.17.1):
     optionalDependencies:
-      ajv: 8.12.0
+      ajv: 8.17.1
 
   ajv-formats@3.0.1(ajv@8.12.0):
     optionalDependencies:
@@ -2116,6 +2129,13 @@ snapshots:
       json-schema-traverse: 1.0.0
       require-from-string: 2.0.2
       uri-js: 4.4.1
+
+  ajv@8.17.1:
+    dependencies:
+      fast-deep-equal: 3.1.3
+      fast-uri: 3.1.0
+      json-schema-traverse: 1.0.0
+      require-from-string: 2.0.2
 
   ansi-colors@4.1.3: {}
 
@@ -2223,8 +2243,9 @@ snapshots:
     dependencies:
       tweetnacl: 0.14.5
 
-  bdy@1.12.8:
+  bdy@1.16.12:
     dependencies:
+      '@buddy-works/ci-info': 1.0.5
       '@fastify/accept-negotiator': 1.1.0
       '@fastify/cors': 9.0.1
       '@puppeteer/browsers': 2.4.0
@@ -2238,13 +2259,14 @@ snapshots:
       eventsource: 4.0.0
       fastify: 4.28.1
       fdir: 6.5.0(picomatch@4.0.3)
+      fflate: 0.8.2
       isbinaryfile: 5.0.2
       jsonwebtoken: 9.0.2
       mime-db: 1.52.0
       mime-types: 2.1.35
       netmask: 2.0.2
       node-fetch: 3.3.2
-      node-forge: 1.3.1
+      node-forge: 1.3.3
       path-is-inside: 1.0.2
       picomatch: 4.0.3
       pino: 8.20.0
@@ -2673,8 +2695,8 @@ snapshots:
   fast-json-stringify@5.8.0:
     dependencies:
       '@fastify/deepmerge': 1.3.0
-      ajv: 8.12.0
-      ajv-formats: 2.1.1(ajv@8.12.0)
+      ajv: 8.17.1
+      ajv-formats: 2.1.1(ajv@8.17.1)
       fast-deep-equal: 3.1.3
       fast-uri: 2.2.0
       rfdc: 1.4.1
@@ -2699,6 +2721,8 @@ snapshots:
   fast-uri@2.2.0: {}
 
   fast-uri@3.0.6: {}
+
+  fast-uri@3.1.0: {}
 
   fastify-plugin@4.5.1: {}
 
@@ -2757,6 +2781,8 @@ snapshots:
     dependencies:
       node-domexception: 1.0.0
       web-streams-polyfill: 3.3.3
+
+  fflate@0.8.2: {}
 
   figures@3.2.0:
     dependencies:
@@ -3208,7 +3234,7 @@ snapshots:
       fetch-blob: 3.2.0
       formdata-polyfill: 4.0.10
 
-  node-forge@1.3.1: {}
+  node-forge@1.3.3: {}
 
   nodemon@3.1.9:
     dependencies:
@@ -3405,8 +3431,6 @@ snapshots:
     dependencies:
       end-of-stream: 1.4.4
       once: 1.4.0
-
-  punycode@2.3.0: {}
 
   punycode@2.3.1: {}
 
@@ -3818,7 +3842,7 @@ snapshots:
 
   uri-js@4.4.1:
     dependencies:
-      punycode: 2.3.0
+      punycode: 2.3.1
 
   urlpattern-polyfill@10.0.0: {}
 
