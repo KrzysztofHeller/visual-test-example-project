@@ -12,7 +12,7 @@
         - "pnpm i --no-frozen-lockfile"
         - "npx cypress install --force"
       setup_commands:
-        - "npm i pnpm -g"
+        - "npm i pnpm@9 -g"
       volume_mappings:
         - "/:/buddy/visual-test-example-project"
         - "/root/.cache/Cypress:/root/.cache/Cypress"
@@ -53,7 +53,7 @@
         - "pnpm i --no-frozen-lockfile"
         - "npx cypress install --force"
       setup_commands:
-        - "npm i pnpm -g"
+        - "npm i pnpm@9 -g"
       volume_mappings:
         - "/:/buddy/visual-test-example-project"
         - "/root/.cache/Cypress:/root/.cache/Cypress"
@@ -94,7 +94,7 @@
         - "pnpm i --no-frozen-lockfile"
         - "npx cypress install --force"
       setup_commands:
-        - "npm i pnpm -g"
+        - "npm i pnpm@9 -g"
       volume_mappings:
         - "/:/buddy/visual-test-example-project"
         - "/root/.cache/Cypress:/root/.cache/Cypress"
@@ -135,7 +135,7 @@
         - "pnpm i --no-frozen-lockfile"
         - "npx cypress install --force"
       setup_commands:
-        - "npm i pnpm -g"
+        - "npm i pnpm@9 -g"
       volume_mappings:
         - "/:/buddy/visual-test-example-project"
         - "/root/.cache/Cypress:/root/.cache/Cypress"
@@ -177,7 +177,7 @@
         - "pnpm i --no-frozen-lockfile"
         - "pnpm run build-storybook"
       setup_commands:
-        - "npm i pnpm -g"
+        - "npm i pnpm@9 -g"
       volume_mappings:
         - "/:/buddy/visual-test-example-project"
       shell: "BASH"
@@ -230,7 +230,7 @@
         - "pnpm i --no-frozen-lockfile"
         - "npx cypress install --force"
       setup_commands:
-        - "npm i pnpm -g"
+        - "npm i pnpm@9 -g"
       volume_mappings:
         - "/:/buddy/visual-test-example-project"
         - "/root/.cache/Cypress:/root/.cache/Cypress"
@@ -272,7 +272,7 @@
         - "pnpm i --no-frozen-lockfile"
         - "pnpm run build-storybook"
       setup_commands:
-        - "npm i pnpm -g"
+        - "npm i pnpm@9 -g"
       volume_mappings:
         - "/:/buddy/visual-test-example-project"
       shell: "BASH"
