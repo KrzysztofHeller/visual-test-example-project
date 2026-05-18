@@ -1,4 +1,0 @@
-onlyBuiltDependencies:
-  - cpu-features
-  - cypress
-  - ssh2
