@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "test": "cd storybook-static && bdy vt storybook"
+    "test": "cd storybook-static && bdy tests visual upload"
   },
   "dependencies": {
     "react": "19.0.0",
